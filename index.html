@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Web Page</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Replace favicon.ico with your icon file -->
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        .card {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .card img,
+        .card video {
+            width: auto;
+            height: auto;
+            border-bottom: 1px solid #eee;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .file-link {
+            display: block;
+            margin-top: 10px;
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Modern Web Page</h1>
+    </header>
+
+    <div class="container">
+        <!-- System Cards -->
+        <div class="card">
+            <div class="card-content">
+                <h2>System Card 1</h2>
+                <!-- Content for System Card 1 -->
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <h2>System Card 2</h2>
+                <!-- Content for System Card 2 -->
+            </div>
+        </div>
+
+        <!-- Images -->
+        <img src="image1.jpg" alt="Image 1" class="card">
+        <img src="image2.jpg" alt="Image 2" class="card">
+        <img src="image3.jpg" alt="Image 3" class="card">
+        <img src="image4.jpg" alt="Image 4" class="card">
+        <img src="image5.jpg" alt="Image 5" class="card">
+        <img src="image6.jpg" alt="Image 6" class="card">
+        <img src="image7.jpg" alt="Image 7" class="card">
+        <img src="image8.jpg" alt="Image 8" class="card">
+
+        <!-- Videos -->
+        <div class="card">
+            <video controls>
+                <source src="VIDIO/title-artist.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <a href="VIDIO/title-artist.mp4" class="button" download>Download Video</a>
+        </div>
+        
+        <div class="card">
+            <video controls>
+                <source src="VIDIO/title-artist.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <a href="VIDIO/title-artist.mp4" class="button" download>Download Video</a>
+        </div>
+
+        <!-- Button -->
+        <a href="#" class="button">Click Here</a>
+
+        <!-- File Links -->
+        <a href="document.pdf" class="file-link" target="_blank" download>Download PDF</a>
+        <a href="spreadsheet.xlsx" class="file-link" target="_blank" download>Download XLSX</a>
+        <a href="archive.rar" class="file-link" target="_blank" download>Download RAR</a>
+        <a href="document.doc" class="file-link" target="_blank" download>Download DOC</a>
+    </div>
+</body>
+</html>
